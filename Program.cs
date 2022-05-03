@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using Data_Structure.Array;
+using Data_Structures;
 
 namespace C__Data_Structure
 {
@@ -19,6 +19,9 @@ namespace C__Data_Structure
             Console.WriteLine("Binary Search Result: " + result);
             int converrtedRomanInteger = ArrayStr.ConvertRomantoInteger("MCMCIV");
             Console.WriteLine("Roman To Integer: " + converrtedRomanInteger);
+
+            ReverseString.Reverse(123);
+            ReverseString.ReverseInt(-213123123);
         }
     }
 }
