@@ -2,7 +2,7 @@
 using Data_Structure.Array;
 using Data_Structures;
 
-namespace C__Data_Structure
+namespace Data_Structure
 {
     class Program
     {
@@ -24,6 +24,8 @@ namespace C__Data_Structure
             ReverseIntegers.ReverseInt(-213123123);
 
             ReverseIntegers.ReverseInteger(123456);
+
+            ReverseArray.ReverseArray1(nums);
         }
     }
 }
