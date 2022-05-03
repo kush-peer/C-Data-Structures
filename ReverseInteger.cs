@@ -2,7 +2,7 @@ using System;
 
 namespace Data_Structures
 {
-    public static class ReverseString
+    public static class ReverseIntegers
     {
 
         public static int Reverse(int x) {
@@ -45,6 +45,20 @@ namespace Data_Structures
         return (int)retVal;
         
        }
+
+        public static int ReverseInteger(int x)
+        {
+            string y= x.ToString();
+            char[] charArr = y.ToCharArray();
+            string revStr = "";
+            for(int i = charArr.Length-1; i >= 0; i--)
+            {
+                 revStr+= charArr[i];
+            }
+            Console.WriteLine ($"Reverse Integer: {revStr}");
+            return Convert.ToInt32(revStr);
+        }
+
     }
+}    
     
-}

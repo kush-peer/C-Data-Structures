@@ -20,8 +20,10 @@ namespace C__Data_Structure
             int converrtedRomanInteger = ArrayStr.ConvertRomantoInteger("MCMCIV");
             Console.WriteLine("Roman To Integer: " + converrtedRomanInteger);
 
-            ReverseString.Reverse(123);
-            ReverseString.ReverseInt(-213123123);
+            ReverseIntegers.Reverse(123);
+            ReverseIntegers.ReverseInt(-213123123);
+
+            ReverseIntegers.ReverseInteger(123456);
         }
     }
 }
